@@ -32,14 +32,14 @@ public class UsuarioConverter {
         return enderecos;
     }
 
-    public Endereco paraEndereco(EnderecoDTO EnderecoDTO){
+    public Endereco paraEndereco(EnderecoDTO enderecoDTO){
         return Endereco.builder()
-                .rua(EnderecoDTO.getRua())
-                .numero(EnderecoDTO.getNumero())
-                .cidade(EnderecoDTO.getCidade())
-                .complemento(EnderecoDTO.getComplemento())
-                .cep(EnderecoDTO.getCep())
-                .estado(EnderecoDTO.getEstado())
+                .rua(enderecoDTO.getRua())
+                .numero(enderecoDTO.getNumero())
+                .cidade(enderecoDTO.getCidade())
+                .complemento(enderecoDTO.getComplemento())
+                .cep(enderecoDTO.getCep())
+                .estado(enderecoDTO.getEstado())
                 .build();
     }
 
@@ -72,14 +72,14 @@ public class UsuarioConverter {
         return enderecos;
     }
 
-    public EnderecoDTO paraEnderecoDTO(Endereco EnderecoDTO){
+    public EnderecoDTO paraEnderecoDTO(Endereco enderecoDTO){
         return EnderecoDTO.builder()
-                .rua(EnderecoDTO.getRua())
-                .numero(EnderecoDTO.getNumero())
-                .cidade(EnderecoDTO.getCidade())
-                .complemento(EnderecoDTO.getComplemento())
-                .cep(EnderecoDTO.getCep())
-                .estado(EnderecoDTO.getEstado())
+                .rua(enderecoDTO.getRua())
+                .numero(enderecoDTO.getNumero())
+                .cidade(enderecoDTO.getCidade())
+                .complemento(enderecoDTO.getComplemento())
+                .cep(enderecoDTO.getCep())
+                .estado(enderecoDTO.getEstado())
                 .build();
     }
 

@@ -1,6 +1,7 @@
 package com.nascimentojamir.usuario.infrastucture.security;
 
 import com.nascimentojamir.usuario.infrastucture.entity.Usuario;
+import com.nascimentojamir.usuario.infrastucture.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
